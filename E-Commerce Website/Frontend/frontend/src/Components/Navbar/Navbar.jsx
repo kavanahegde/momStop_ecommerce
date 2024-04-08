@@ -18,10 +18,10 @@ const Navbar = () => {
                 <p>MOMSTOP</p>
             </div>
             <ul className="nav-menu">
-                <li onClick={() => { setMenu("shop") }}><NavLink to='/'>Shop</NavLink> {menu === "shop" ? <hr /> : <></>}</li>
-                <li onClick={() => { setMenu("mens") }}><NavLink to='/mens'>Mens</NavLink>{menu === "mens" ? <hr /> : <></>}</li>
-                <li onClick={() => { setMenu("womens") }}><NavLink to='/womens'>Womens</NavLink>{menu === "womens" ? <hr /> : <></>}</li>
-                <li onClick={() => { setMenu("kids") }}><NavLink to='/kids'>Kids</NavLink>{menu === "kids" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("shop") }}><NavLink style={{textDecoration:'none'}} to='/'>Shop</NavLink> {menu === "shop" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("mens") }}><NavLink style={{textDecoration:'none'}} to='/mens'>Mens</NavLink>{menu === "mens" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("womens") }}><NavLink style={{textDecoration:'none'}} to='/womens'>Womens</NavLink>{menu === "womens" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("kids") }}><NavLink style={{textDecoration:'none'}} to='/kids'>Kids</NavLink>{menu === "kids" ? <hr /> : <></>}</li>
             </ul>
             <div className="Nav-login-cart">
                 <Link to='/login'><button>Login</button></Link>
