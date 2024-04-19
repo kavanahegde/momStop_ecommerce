@@ -4,7 +4,7 @@ const LoginSignup = () => {
   return (
     <div className='loginsignup'>
     <div className="loginsignup-container">
-    <h1>Sigh Up</h1>
+    <h1>Sign Up</h1>
     <div className="loginsignup-fields">
     <input type="text" placeholder='Your Name' />
     <input type="email" placeholder='Email Address' />
