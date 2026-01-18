@@ -1,4 +1,12 @@
-                      # momStop_ecommerce
+
+##🚀🚀 Project
+- 🛒 E-Commerce Website  (React + Node)
+- 👶 Baby Products Store
+                      
+                      
+                      
+                      
+          # momStop_ecommerce
 Develop a  e-commerce website specializing in baby products, including clothes, toys, newborn essentials, and preschool items.
 * Target Audience: Parents, caregivers, and individuals interested in purchasing baby products.
     * Features:
